@@ -1,0 +1,9 @@
+npm install --global expo-cli && npx create-expo-app my-app
+
+cd AwesomeProject
+npm start # you can also use: npx expo start
+
+
+npm i -g expo-cli
+npx create-expo-app my-app
+npx expo start
