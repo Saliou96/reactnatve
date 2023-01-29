@@ -8,9 +8,17 @@ npm i -g expo-cli
 npx create-expo-app my-app
 npx expo start
 
-yarn add nativewind
-yarn add --dev tailwindcss
+npm add nativewind
+npm add --dev tailwindcss
 npx tailwindcss init
 
 + content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
 +   plugins: ["nativewind/babel"],
+
+
+react navigation
+
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/native-stack
