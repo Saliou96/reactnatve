@@ -9,21 +9,22 @@ const data = [
     {title:'Post 6',content:'Content of post 6'},
     {title:'Post 7',content:'Content of post 7'},
     {title:'Post 8',content:'Content of post 8'},
+    {title:'Post 9',content:'Content of post 9'},
+    {title:'Post 10',content:'Content of post 10'}
 ]
 
 const Card = () => {
   return (
     <FlatList
-        
+        horizontal
         data={data}
         renderItem={({item}) => 
         <View className='flex items-center'>
             <View className='bg-cyan-200 w-10/12 m-5 p-5 rounded-lg'>
                 <Text className='mx-auto font-bold text-lg'>{item.title}</Text>
-                <Text className='mx-auto'>{item.content}</Text>
             </View>
         </View>
-    }
+    } 
     />
   )
 }

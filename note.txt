@@ -10,3 +10,7 @@ npx expo start
 
 yarn add nativewind
 yarn add --dev tailwindcss
+npx tailwindcss init
+
++ content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
++   plugins: ["nativewind/babel"],
