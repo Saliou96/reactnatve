@@ -1,11 +1,11 @@
-npm install --global expo-cli && npx create-expo-app my-app
+npm install --global expo-cli && npx create-expo-app learn
 
 cd AwesomeProject
 npm start # you can also use: npx expo start
 
 
 npm i -g expo-cli
-npx create-expo-app my-app
+npx create-expo-app learn
 npx expo start
 
 npm add nativewind
@@ -16,7 +16,7 @@ npx tailwindcss init
 +   plugins: ["nativewind/babel"],
 
 
-react navigation
+add react navigation
 
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
